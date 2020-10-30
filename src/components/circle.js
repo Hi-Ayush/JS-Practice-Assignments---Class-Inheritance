@@ -1,10 +1,11 @@
 // import using require
-import React from "react";
 
 // declare class
-import Shape from "./shape";
-export default class Circle extends Shape.Component {
+var Shape = require("shape");
+var Component = Shape.Component;
+class Circle extends Component {
   calculateArea() {}
 }
+module.exports = Circle;
 
 // export class using module.exports
