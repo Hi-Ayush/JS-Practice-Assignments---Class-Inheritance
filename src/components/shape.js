@@ -4,7 +4,7 @@
 // var Component = React.Component;
 class Shape {
   Constructor(color) {
-    this.color = color;
+    this.color = { color: "blue" };
   }
   drawShape() {
     console.log("A random shape is drawn");
