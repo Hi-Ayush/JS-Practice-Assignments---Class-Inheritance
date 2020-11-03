@@ -4,7 +4,12 @@
 var Shape = require("shape");
 var Component = Shape.Component;
 class Circle extends Component {
-  calculateArea() {}
+  constructor() {
+    super();
+  }
+  calculateArea() {
+    console.log("Area of circle is abc");
+  }
 }
 module.exports = Circle;
 

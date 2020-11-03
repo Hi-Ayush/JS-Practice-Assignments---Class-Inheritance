@@ -4,10 +4,14 @@
 var React = require("react");
 var Component = React.Component;
 class Shape extends Component {
-  Constructor() {
-    this.color = "blue";
+  Constructor(color) {
+    this.color = color;
   }
-  drawShape() {}
-  calculateArea() {}
+  drawShape() {
+    console.log("A random shape is drawn");
+  }
+  calculateArea() {
+    console.log("Area of shape is xyz");
+  }
 }
 module.exports = Shape;
