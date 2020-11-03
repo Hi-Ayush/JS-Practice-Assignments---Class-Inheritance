@@ -2,8 +2,8 @@
 
 // export class using module.exports
 var React = require("react");
-var Component = React.Component;
-class Shape extends Component {
+// var Component = React.Component;
+class Shape extends React.Component {
   // color = "blue";
   Constructor(color) {
     this.color = color;
