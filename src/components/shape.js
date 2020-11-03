@@ -3,10 +3,10 @@
 // export class using module.exports
 // var Component = React.Component;
 class Shape {
-  color: "blue";
   Constructor(color) {
     this.color = { color: "blue" };
   }
+  color: "blue";
   drawShape() {
     console.log("A random shape is drawn");
   }
