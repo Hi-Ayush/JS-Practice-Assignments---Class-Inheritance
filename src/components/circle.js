@@ -1,11 +1,12 @@
 // import using require
 
 // declare class
-var Shape = require("shape");
+// var Shape = require("shape");
 // var Component = Shape.Component;
+import Shape from "./shape";
 class Circle extends Shape {
-  constructor() {
-    super();
+  constructor(color) {
+    super(color);
   }
   calculateArea() {
     console.log("Area of circle is abc");
