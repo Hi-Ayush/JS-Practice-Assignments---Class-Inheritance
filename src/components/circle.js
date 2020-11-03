@@ -5,8 +5,8 @@
 // var Component = Shape.Component;
 import Shape from "./shape";
 class Circle extends Shape {
-  constructor(color) {
-    super(color);
+  constructor() {
+    super();
   }
   calculateArea() {
     console.log("Area of circle is abc");
