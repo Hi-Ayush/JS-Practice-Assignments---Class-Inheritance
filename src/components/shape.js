@@ -4,7 +4,7 @@
 // var Component = React.Component;
 class Shape {
   Constructor() {
-    color: "red";
+    this.color = "red";
   }
 
   drawShape() {
