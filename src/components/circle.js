@@ -2,8 +2,8 @@
 
 // declare class
 var Shape = require("shape");
-var Component = Shape.Component;
-class Circle extends Component {
+// var Component = Shape.Component;
+class Circle extends Shape.Component {
   constructor() {
     super();
   }
