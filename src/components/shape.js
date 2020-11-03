@@ -3,7 +3,6 @@
 // export class using module.exports
 // var Component = React.Component;
 class Shape {
-  color = "blue";
   Constructor(color) {
     this.color = color;
   }
