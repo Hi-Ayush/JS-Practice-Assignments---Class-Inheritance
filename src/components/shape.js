@@ -4,7 +4,7 @@
 var React = require("react");
 var Component = React.Component;
 class Shape extends Component {
-  color = "blue";
+  // color = "blue";
   Constructor(color) {
     this.color = color;
   }
